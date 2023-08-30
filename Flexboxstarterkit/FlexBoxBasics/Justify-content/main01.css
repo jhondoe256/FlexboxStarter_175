@@ -1,0 +1,295 @@
+body{
+    font-family: 'Open Sans',sans-serif;
+}
+
+h1,h2{
+    text-align: center;
+}
+
+#container-jc-start{
+    background-color: #171c26;
+    width: 90%;
+    height: 500px;
+    margin:0 auto;
+    border: 5px solid #000000;
+    display:flex;
+    justify-content: start;
+    flex-direction: row; /* this is the default (main axis goes left to right)*/
+    /*flex-direction: row-reverse;  this is the default (main axis goes right to left)*/
+}
+
+#container-jc-start div{
+    width: 200px;
+    height: 200px;
+}
+
+/* ---------------------------- */
+
+#container-jc-end{
+    background-color: #171c26;
+    width: 90%;
+    height: 500px;
+    margin:0 auto;
+    border: 5px solid #000000;
+    display:flex;
+    
+}
+
+#container-jc-end div{
+    width: 200px;
+    height: 200px;
+}
+
+/* ---------------------------- */
+
+#container-jc-center{
+    background-color: #171c26;
+    width: 90%;
+    height: 500px;
+    margin:0 auto;
+    border: 5px solid #000000;
+    display:flex;
+   
+}
+
+#container-jc-center div{
+    width: 200px;
+    height: 200px;
+}
+
+/* ---------------------------- */
+
+#container-flex-direction-column{
+    background-color: #171c26;
+    width: 90%;
+    height: 500px;
+    margin:0 auto;
+    border: 5px solid #000000;
+    display:flex;
+   
+}
+
+#container-flex-direction-column div{
+    width: 200px;
+    height: 200px;
+}
+/* ---------------------------- */
+
+#container-flex-direction-column-wrap{
+    background-color: #171c26;
+    width: 90%;
+    height: 500px;
+    margin:0 auto;
+    border: 5px solid #000000;
+    display:flex;
+   
+}
+
+#container-flex-direction-column-wrap div{
+    width: 200px;
+    height: 200px;
+}
+/* ---------------------------- */
+
+#container-flex-direction-column-wrap-reverse{
+    background-color: #171c26;
+    width: 90%;
+    height: 500px;
+    margin:0 auto;
+    border: 5px solid #000000;
+    display:flex;
+    
+}
+
+#container-flex-direction-column-wrap-reverse div{
+    width: 200px;
+    height: 200px;
+}
+/* ---------------------------- */
+
+#container-align-items{
+    background-color: #171c26;
+    width: 90%;
+    height: 500px;
+    margin:0 auto;
+    border: 5px solid #000000;
+    display:flex;
+   
+}
+
+#container-align-items div{
+    width: 200px;
+    height: 200px;
+}
+/* ---------------------------- */
+#container-align-center{
+    background-color: #171c26;
+    width: 90%;
+    height: 500px;
+    margin:0 auto;
+    border: 5px solid #000000;
+    display:flex;
+}
+
+#container-align-center div{
+    width: 200px;
+    height: 200px;
+}
+/* ---------------------------- */
+#container-align-end{
+    background-color: #171c26;
+    width: 90%;
+    height: 500px;
+    margin:0 auto;
+    border: 5px solid #000000;
+    display:flex;
+}
+
+#container-align-end div{
+    width: 200px;
+    height: 200px;
+}
+/* ---------------------------- */
+#container-jc-align-start{
+    background-color: #171c26;
+    width: 90%;
+    height: 500px;
+    margin:0 auto;
+    border: 5px solid #000000;
+    display:flex;
+}
+
+#container-jc-align-start div{
+    width: 200px;
+    height: 200px;
+}
+/* ---------------------------- */
+#container-jc-center-align-center{
+    background-color: #171c26;
+    width: 90%;
+    height: 500px;
+    margin:0 auto;
+    border: 5px solid #000000;
+    display:flex;
+   
+}
+
+#container-jc-center-align-center div{
+    width: 200px;
+    height: 200px;
+}
+/* ---------------------------- */
+#container-jc-spacing-align-center{
+    background-color: #171c26;
+    width: 90%;
+    height: 500px;
+    margin:0 auto;
+    border: 5px solid #000000;
+    display:flex;
+}
+/* align-content doesn't work w/o flex-wrap:wrap */
+#container-jc-spacing-align-center div{
+    width: 200px;
+    height: 200px;
+}
+/* ---------------------------- */
+#container-jc-spacing-align-self{
+    background-color: #171c26;
+    width: 90%;
+    height: 500px;
+    margin:0 auto;
+    border: 5px solid #000000;
+    display:flex;
+   
+}
+
+#container-jc-spacing-align-self div{
+    width: 200px;
+    height: 200px;
+}
+
+#container-jc-spacing-align-self div:nth-of-type(2){
+    
+}
+
+#container-jc-spacing-align-self div:nth-of-type(4){
+    
+}
+
+#container-jc-spacing-align-self div:nth-of-type(5){
+   
+}
+/* ---------------------------- */
+#container-flexBasis{
+    background-color: #171c26;
+    width: 90%;
+    height: 500px;
+    margin:0 auto;
+    border: 5px solid #000000;
+    display:flex;
+}
+/* align-content doesn't work w/o flex-wrap:wrap */
+#container-flexBasis div{
+    width: 200px;
+    height: 200px;
+}
+
+/* ---------------------------- */
+#container-flexGrow{
+    background-color: #171c26;
+    width: 90%;
+    height: 500px;
+    margin:0 auto;
+    border: 5px solid #000000;
+    display:flex;
+}
+/* align-content doesn't work w/o flex-wrap:wrap */
+#container-flexGrow div{
+   width: 200px;
+    height: 200px;
+}
+#container-flexGrow div:nth-of-type(1){
+   
+}
+#container-flexGrow div:nth-of-type(4){
+   
+}
+/* ------------------------ */
+#container-flexGrow-all{
+    background-color: #171c26;
+    width: 90%;
+    height: 500px;
+    margin:0 auto;
+    border: 5px solid #000000;
+    display:flex;
+}
+/* align-content doesn't work w/o flex-wrap:wrap */
+#container-flexGrow-all div{
+    width: 200px;
+    height: 200px;
+}
+/* ------------------------ */
+#container-flexShrink{
+    background-color: #171c26;
+    width: 90%;
+    height: 500px;
+    margin:0 auto;
+    border: 5px solid #000000;
+    display:flex;
+}
+/* align-content doesn't work w/o flex-wrap:wrap */
+#container-flexShrink div{
+    width: 200px;
+    height: 200px;
+    
+}
+#container-flexShrink div:nth-of-type(1){
+   
+}
+#container-flexShrink div:nth-of-type(4){
+   
+}
+
+#container-flexShrink div:nth-of-type(3){
+    
+}

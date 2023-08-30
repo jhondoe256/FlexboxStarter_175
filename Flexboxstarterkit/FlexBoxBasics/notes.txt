@@ -1,0 +1,44 @@
+Flexbox -> one-dimensional layout method for laying out items in rows and columns
+
+with this we can distribute space dynamically across elements of an unknown size
+
+Flex-direction allows us to change the flex-direction of elements
+
+default: flex-direction: row  (left to right)
+flex-direction: row-reverse   (right to left)
+
+            ^
+            |
+            |    (defalult) flex-direction: row
+            |
+            |
+<-------------------------------> (main axis(x))
+            |
+            |
+            |
+            |  (cross axis(y)
+            |
+            V
+
+
+
+            ^
+            |
+            |     flex-direction: column
+            |    (cross axis(x))
+            |
+<-------------------------------> 
+            |
+            |
+            |(main axis(y))           
+            |
+            V
+
+flex-direction: column (main axis is top to bottom)
+flex-direction: columb-reverse (main axis will go bottom to top)
+
+
+justify-content: flex-start -> how content is distributed across the main axis (not always on the left side)
+
+3 froms of flex-wrap,
+flex-wrap: wrap ,nowrap, flex-reverse
